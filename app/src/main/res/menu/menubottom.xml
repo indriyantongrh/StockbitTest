@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/watchlist"
+        android:enabled="true"
+        android:icon="@drawable/ic_star"
+        android:title="Watchlist"/>
+    <item
+        android:id="@+id/stream"
+        android:enabled="true"
+        android:icon="@drawable/ic_stream"
+        android:title="Stream"/>
+    <item
+        android:id="@+id/search"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:title="Search"/>
+    <item
+        android:id="@+id/chat"
+        android:enabled="true"
+        android:icon="@drawable/ic_chat"
+        android:title="Chat"/>
+    <item
+        android:id="@+id/portofolio"
+        android:enabled="true"
+        android:icon="@drawable/ic_chart"
+        android:title="Portofolio"/>
+</menu>
