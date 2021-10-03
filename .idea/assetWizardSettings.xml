@@ -317,7 +317,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/pie_chart_outline/baseline_pie_chart_outline_24.xml" />
+                                      <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/list/baseline_list_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -327,7 +327,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_chart" />
+                            <entry key="outputName" value="ic_list" />
                           </map>
                         </option>
                       </PersistentState>
