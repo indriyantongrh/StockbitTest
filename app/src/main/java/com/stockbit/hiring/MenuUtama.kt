@@ -9,7 +9,6 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
-import com.stockbit.hiring.baseurl.NetworkConfig
 import com.stockbit.hiring.menu.stream
 import com.stockbit.hiring.menu.watchlist
 

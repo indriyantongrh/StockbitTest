@@ -2,7 +2,6 @@ package com.stockbit.hiring.baseurl
 
 import com.stockbit.hiring.model.Base
 import retrofit2.Call
-import com.stockbit.hiring.model.ResponseCoin
 import retrofit2.http.GET
 
 /**

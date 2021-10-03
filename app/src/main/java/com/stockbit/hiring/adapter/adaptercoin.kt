@@ -1,5 +1,6 @@
 package com.stockbit.hiring.adapter
 
+import android.opengl.Visibility
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -29,10 +30,21 @@ class AdapterCoin(private val listDataCoins: List<Base.Data1444312029>) : Recycl
                 val tvNameLengkap = findViewById<TextView>(R.id.tvNameLengkap)
                 val tvPrice = findViewById<TextView>(R.id.tvPrice)
                 val tvChange = findViewById<TextView>(R.id.tvChange)
-                tvName.text = itemsItem.CoinInfo!!.Name
-                tvNameLengkap.text = itemsItem.CoinInfo!!.FullName
-                //tvPrice.text = itemsItem?.DISPLAY!!.IDR!!.PRICE.toString()
-               // tvChange.text = itemsItem?.DISPLAY!!.IDR!!.CHANGEPCTHOUR.toString()+" %"
+                tvName.text = itemsItem.CoinInfo!!.Name.toString()
+                tvNameLengkap.text = itemsItem.CoinInfo!!.FullName.toString()
+                var price = itemsItem.DISPLAY?.IDR?.PRICE.toString()
+                if (price == "null"){
+                    tvPrice.text = "Tidak Tersedia"
+                }else{
+                    tvPrice.text = price
+                }
+                var change = itemsItem.DISPLAY?.IDR?.CHANGEHOUR.toString()
+                if(change == "null"){
+                    tvChange.visibility = View.GONE
+                }else{
+                    tvChange.text =change+" /Jam"
+                }
+
 
             }
         }
