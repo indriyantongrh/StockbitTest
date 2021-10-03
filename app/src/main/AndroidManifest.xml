@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.stockbit.hiring">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -12,9 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity
-            android:name=".model.model"
-            android:exported="true" />
         <activity
             android:name=".MenuUtama"
             android:exported="true" />

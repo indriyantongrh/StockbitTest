@@ -1,8 +1,8 @@
-//import android.os.Parcelable
-//import kotlinx.android.parcel.Parcelize
-//
-//@Parcelize
-data class Model (
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+
+
+data class ModelCoins (
     val message: String,
     val type: Long,
     val metaData: MetaData,
@@ -166,3 +166,5 @@ class RateLimit()
 data class SponsoredDatum (
     val coinInfo: CoinInfo
 )
+
+

@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 apply from: '../android_commons.gradle'
 apply plugin: 'org.jetbrains.kotlin.android'
-
+apply plugin: 'kotlin-parcelize'
 
 
 
